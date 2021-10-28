@@ -1,0 +1,84 @@
+ul.dropdown-menu {
+    height: 200px;
+    overflow-y: auto;
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border: solid 1px;
+}
+
+.btn.disabled::placeholder {
+    color: #5D6871;
+}
+
+.btn.disabled {
+    border-color: #E0E3E6;
+}
+
+.btn.disabled::after {
+    border-top-color: #E0E3E6;
+    border-bottom-color: #E0E3E6;
+}
+
+button.metro {
+    font-weight: 700;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#section-transit {
+    background-color: #F5F7FB;
+}
+
+/*
+ * X-Small devices (portrait phones, less than 576px)
+ * No media query for `xs` since this is the default in Bootstrap
+ */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+/************ Bus Image ************/
+#section-select {
+    background-image: url('../img/articulated-buses-desktop.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.select-wrapper {
+    background: #FFF;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.select-content>div {
+    padding: 0 48px;
+}
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

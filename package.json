@@ -1,0 +1,15 @@
+{
+  "name": "metro-digital-design-system-demo",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.5.2",
+    "@frctl/nunjucks": "^2.0.13",
+    "nunjucks": "^3.2.3",
+    "start": "^5.1.0",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "fractal:start": "fractal start --sync",
+    "fractal:build": "fractal build"
+  }
+}
