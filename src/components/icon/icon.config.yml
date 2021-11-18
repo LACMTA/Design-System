@@ -20,8 +20,8 @@ context:
       - units: "9"
         pixels: "72px"
     items:
-      - name: pedestrian_walk
-        meta: "pedestrian walk"
+      - name: high-visibility-crosswalk
+        meta: "high visibility crosswalk"
       - name: accessibility_new
         meta: "accessible"
       - name: accessible_forward
