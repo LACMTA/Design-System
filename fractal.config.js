@@ -59,7 +59,7 @@ fractal.set('project.title', 'Metro Component Library Demo');
 fractal.set('project.version', 'v1.0');
 fractal.set('project.author', 'Metro Digital Design Team');
 
-fractal.web.set('static.path', __dirname + '../src/css');
+fractal.web.set('static.path', __dirname + '/src/css');
 
 const { components } = fractal;
 components.set("ext", ".njk");
@@ -94,8 +94,8 @@ web.theme(
   })
 );
 
-web.set("static.path", "dist");
-web.set("static.mount", "dist");
+web.set("static.path", "design-system/dist");
+web.set("static.mount", "design-system/dist");
 // output files to /build
 web.set("builder.dest", "build");
 
