@@ -46,7 +46,7 @@ const context = {
     version: pkg.version
   },
   uswds: {
-    path: ""
+    path: "../../dist"
   },
   // eslint-disable-next-line no-script-url
   placeholderLink: "javascript:void()"
