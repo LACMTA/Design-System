@@ -46,7 +46,7 @@ const context = {
     version: pkg.version
   },
   uswds: {
-    path: ""
+    path: "../../design-system/dist"
   },
   // eslint-disable-next-line no-script-url
   placeholderLink: "javascript:void()"
@@ -63,6 +63,7 @@ fractal.web.set('static.path', __dirname + '/src/css');
 
 /* Specify a directory of static assets */
 fractal.web.set('static.path', __dirname + '/dist');
+// fractal.web.set('static.path', __dirname + '/dist');
 
 
 const { components } = fractal;
@@ -98,7 +99,7 @@ web.theme(
   })
 );
 
-web.set("static.path", "design-system");
+// web.set("static.path", "design-system");
 // web.set("static.mount", "design-system");
 // output files to /build
 web.set("builder.dest", "build");
