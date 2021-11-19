@@ -46,7 +46,7 @@ const context = {
     version: pkg.version
   },
   uswds: {
-    path: "/dist"
+    path: "../../../"
   },
   // eslint-disable-next-line no-script-url
   placeholderLink: "javascript:void()"
@@ -98,8 +98,8 @@ web.theme(
   })
 );
 
-web.set("static.path", "dist");
-web.set("static.mount", "dist");
+// web.set("static.path", "dist");
+// web.set("static.mount", "dist");
 // output files to /build
 web.set("builder.dest", "build");
 
