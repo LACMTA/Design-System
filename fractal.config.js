@@ -98,8 +98,8 @@ web.theme(
   })
 );
 
-web.set("static.path", "dist");
-// web.set("static.mount", "dist");
+web.set("static.path", "design-system");
+// web.set("static.mount", "design-system");
 // output files to /build
 web.set("builder.dest", "build");
 
