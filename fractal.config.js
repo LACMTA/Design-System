@@ -53,10 +53,10 @@ const context = {
 };
 
 // fractal.set("project.title", `U.S. Web Design System (v${pkg.version})`);
-fractal.set('project.title', 'Metro Component Library Demo');
+fractal.set('project.title', 'Metro Component Library Demo 2.0');
 
 
-fractal.set('project.version', 'v1.0');
+fractal.set('project.version', 'v2.0');
 fractal.set('project.author', 'Metro Digital Design Team');
 
 fractal.web.set('static.path', __dirname + '/src/css');
